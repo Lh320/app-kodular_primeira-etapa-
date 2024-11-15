@@ -1,0 +1,316 @@
+@charset "UTF-8";
+
+
+:root{
+  --cor1:#f2f2f2;
+  --cor2:#fff;
+  --cor3:#f2f2f2;
+  --cor4:#007bff;
+  --cor5:#0056b3;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+body{
+  width: 100%;
+}
+
+
+header{
+ 
+  background: linear-gradient(to right, #007bff, #0056b3); 
+
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+
+
+  display: flex;
+
+ align-items: center;
+
+ justify-items: center;
+
+ justify-content: center;
+
+
+
+ 
+
+}
+
+footer{
+
+  background: linear-gradient(to right, #007bff, #0056b3); 
+
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+
+
+  display: flex;
+
+ align-items: center;
+
+ justify-items: center;
+
+ justify-content: center;
+
+
+
+
+
+ 
+}
+
+h2{
+  color: var(--cor2);
+  font-size: 2em;
+}
+
+#img_header{
+  width: 250px;
+  height: 250px;
+
+  padding: 0;
+
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    background-color:  var(--cor1); 
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: var(--cor2); 
+    border: 1px solid var(--cor3);
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: var(--cor4); 
+  }
+  
+ 
+  .plan label {
+    display: inline-block;
+    
+    padding: 5px 10px;
+    border: 1px solid var(--cor4); 
+    border-radius: 5px;
+    color: var(--cor4); 
+  }
+  
+  .plan label:hover {
+    background-color: var(--cor4);
+    color: var(--cor4); 
+  }
+  
+  .plan input[type="radio"]:checked + label {
+    background-color: var(--cor4); 
+    color: var(); 
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+  }
+  
+  .user-info label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--cor4); 
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #007bff, #0056b3); 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    
+   
+  }
+  
+  
+  button:hover {
+    opacity: 0.9; 
+  }
+
+
+
+.cartao-empresarial {
+  background-color: #f0f0f0;
+  border: 2px solid #ff9900; 
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.carta1 {
+ background-image: linear-gradient(to right, #00ffd9, #00b32d);
+ width: 350px;
+ height: 200px;
+ border-radius: 15px;
+ padding: 20px;
+ color: white;
+ font-family: Arial, sans-serif;
+ margin: auto;
+
+  
+}
+
+
+.carta2 {
+  background-image: linear-gradient(to right, #4000ff, #8b03fa);
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: auto;
+ 
+   
+ }
+
+
+ .carta3 {
+
+  background-image: linear-gradient(to right, #003fb3, #002fff);
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: auto;
+ 
+   
+ }
+
+ .carta4 {
+
+  background-image: linear-gradient(to right, #00ffaa, #0089b3);
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: auto;
+ 
+   
+ }
+
+ .carta5 {
+
+  background: linear-gradient(to right, #007bff, #0056b3); 
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: auto;
+ 
+   
+ }
+
+ .carta6{
+
+  background-image: linear-gradient(to right, #5900ff, #a400b3);
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: auto;
+ 
+   
+ }
+
+ .carta7{
+
+  background-image: linear-gradient(to right, #0098b3, #3700ff);
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: auto;
+ 
+   
+ }
+
+
+ .carta8 {
+
+  background-image: linear-gradient(to right, #73ff00, #00b37d);
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: auto;
+ 
+   
+ }
+ 
+
+.cartao{
+ 
+  margin: auto;
+}
+.carta8
+.carta7
+.carta6
+.carta5
+.carta4
+.carta3
+.carta2
+.carta1{
+  text-align: left;
+  box-shadow: 0 0 15px 0px black;
+
+  padding: 10px;
+  
+
+  margin-bottom: 10px;
+}
+
+
+
+img{
+  width: 150px;
+  height: 150px;
+}
+

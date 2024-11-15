@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escolha seu Plano de Internet</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="img/logo_flevicon.png" type="image/x-icon">
+  <script src="js/script.js"></script>
+</head>
+<body>
+
+  <header>
+    <img id="img_header" src="img/terceira-logo(horizontal-logo-branca).png" alt="">
+    
+  </header>
+
+  <main>
+    <h1 id="novo_nome">plano ideal</h1>
+    
+    <form id="formulario" action="" method="post">
+      <div class="user-info">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+      
+      <div class="user-info">
+        <label for="data">Data de Aniversário:</label>
+        <input type="date" id="data" name="data" required>
+      </div>
+      
+      <div class="user-info">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="user-info">
+        <label for="plano">Plano:</label>
+        <select id="plano" name="plano" required>
+          <option value="">Selecione o Plano</option>
+          <option id="Empresarial" value="Empresarial">Empresarial (200 Mbps | R$ 150/mês)</option>
+          <option id="Premium" value="Premium">Premium (500 Mbps | R$ 300/mês)</option>
+          <option id="Profissional" value="Profissional">Profissional (1000 Mbps | R$ 500/mês)</option>
+          <option id="Intermediário" value="Intermediário">Intermediário (100 Mbps | R$ 80/mês)</option>
+          <option id="Simples" value="Simples">Simples (30 Mbps | R$ 50/mês)</option>
+          <option id="Corporativo" value="Corporativo">Corporativo (1000 Mbps | R$ 800/mês)</option>
+          <option id="Para_ONGs" value="Para_ONGs">Para ONGs (200 Mbps | R$ 100/mês)</option>
+          <option id="Para_Escolas" value="Para_Escolas">Para Escolas (500 Mbps | R$ 200/mês)</option>
+        </select>
+      </div>
+
+      <div class="user-info">
+        <label for="forma-pagamento">Forma de Pagamento:</label>
+        <select id="forma-pagamento" name="forma_pagamento" required>
+          <option value="Cartão de Crédito">Cartão de Crédito</option>
+          <option value="Boleto Bancário">Boleto Bancário</option>
+          <option value="Transferência Bancária">Transferência Bancária</option>
+        </select>
+      </div>
+
+      <div class="user-info">
+        <label for="idade">idade:</label>
+        <input type="number" id="idade" name="idade" min="0" step="0.01" required>
+      </div>
+
+      <div class="user-info">
+        <label for="salario">Salário:</label>
+        <input type="number" id="salario" name="salario" min="0" step="0.01" required>
+      </div>
+      
+      <button type="button" onclick="gerarCartao()">Gerar Cartão</button>
+    </form>
+  </main>
+
+  <div id="cartao" class="cartao">
+
+
+  </div>
+
+  <footer> <h2 id="ac">Acessodigital</h2> </footer>
+  
+
+</body>
+</html>
